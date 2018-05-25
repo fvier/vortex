@@ -1,0 +1,39 @@
+html, body {
+    color: white;
+    background-color: teal;
+    min-height: 100%;
+    height: 100%;  
+    margin: 0 auto;
+}
+
+header {
+    background-color: #aaff99;
+    border-bottom: 2px solid green;
+}
+
+header img {
+    padding: 1%;
+    max-width: 200px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+}
+
+form label {
+    display: block;
+}
+
+form input {
+    border-radius: 10px;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 8%;
+}
+
+form input[type='submit'] {
+    background-color: darkgreen;
+    color: white;
+}
